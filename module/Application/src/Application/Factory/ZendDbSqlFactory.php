@@ -1,5 +1,5 @@
 <?php
-namespace Blog\Factory;
+namespace Application\Factory;
 
 use Application\Mapper\ZendDbSqlMapper;
 use Application\Model\Post;

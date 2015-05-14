@@ -58,9 +58,6 @@ return array(
             'translator' => 'MvcTranslator',
 			'db' => 'Zend\Db\Adapter\Adapter',
         ),
-		'invokables' => array(
-             'Application\Service\PostServiceInterface' => 'Application\Service\PostService'
-         ),
     ),
     'translator' => array(
         'locale' => 'en_US',
@@ -73,7 +70,6 @@ return array(
         ),
     ),
     'invokables' => array(
-             'Application\Service\PostServiceInterface' => 'Applicaion\Service\PostService'
     ),
     'controllers' => array(
         'invokables' => array(
